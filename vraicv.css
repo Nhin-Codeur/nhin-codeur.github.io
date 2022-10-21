@@ -9,13 +9,19 @@ body {
 .page_entiere {
 	background-color: white;
 	border: 2px solid red;
-	width: 58%;
+	width: 40%;
 	margin: 0 auto;
 	margin-top: 20px;
-	padding: 10px;
-	padding-left: 40px;
+	margin-bottom: 10px;
+	padding: 100px;
+	padding-left: 80px;
+	padding-bottom: 40px;
+	font-size: 15px;
 }
 
+.bloc_cv {
+	margin-top: 12px;
+}
 .partie_haute {
 	display: flex;
 	direction: row;
@@ -23,22 +29,21 @@ body {
 }
 
 .partie_haute_droite {
-	width: 20%;
+	width: 21%;
 	outline: 1px solid black;
 }
 
 .gros_titre {
 	color: #E36C0A;
-	font-size: 14px;
-	margin-bottom: 50px;
+	font-size: 17px;
+	margin-bottom: 15px;
+	font-weight: 700;
+
 }
 
-.date_ville {
-	font-size: 12px;
-}
 
 .petit_texte {
-	font-size: 10px;
+	font-size: 13px;
 }
 .education {
 	display: flex;
@@ -48,12 +53,17 @@ body {
 .partie_moyenne_gauche {
 	display: flex;
 	flex-direction: row;
-	font-size: 12px;
+
 }
 
 .date_ville {
 	margin-right: 50px;
-	width: 50px;
+	width: 56px;
+}
+
+.langages_maitrises {
+	display: flex;
+    flex-direction: column;
 }
 
 .liste_langage {
@@ -63,6 +73,64 @@ body {
 
 .liste_langage > span {
 	font-weight: 700;
-	font-size: 12px;
+	
 
 } 
+
+.langues {
+
+	font-weight: 700;
+	
+
+}
+
+.premier_bloc {
+	display: flex;
+	flex-direction: column;
+}
+
+.premiere_ligne {
+	font-size: 13px;
+	font-weight: 700;
+	
+}
+
+.endroit_travail {
+	
+	font-weight: 700;
+}
+
+.profession {
+	
+}
+
+.poste_occupe {
+	text-decoration: underline;
+	
+}
+
+.explication_poste {
+	
+}
+
+.deuxieme_bloc {
+	margin-top: 20px;
+}
+
+.projets {
+	display: flex;
+	flex-direction: column;
+}
+
+.liste_projets {
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+
+.centres_interets {
+	display: flex;
+	flex-direction: column;
+	
+}
